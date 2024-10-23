@@ -1,6 +1,6 @@
 <template>
   <div style="padding:5rem; text-align:center">
-    <p>If the <b>userType</b> is <b>admin</b>, then the email must have the <b>@admin</b> domain.</p>  
+    <p>If the <b>userType</b> is <b>admin</b>, then the email be one of <b>['admin1@admin.com', 'admin2@admin.com', 'admin3@admin.com']</b></p>  
       <center>
       <form @submit.prevent="onSubmit">
       <div>
