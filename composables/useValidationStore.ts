@@ -27,7 +27,7 @@ export const useValidationStore = defineStore('useValidationStore', () => {
     validationSchema,
     initialValues: {
       email: '',
-      userType: 'user', // nebo 'admin'
+      userType: 'user', 
     },
   })
 
