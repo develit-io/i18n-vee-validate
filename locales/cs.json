@@ -1,0 +1,6 @@
+{
+    "name_required": "Jméno je povinné",
+    "invalid_email": "Email je neplatný",
+    "admin_email_invalid": "Email administrátora je neplatný",
+    "user_email_invalid": "Email uživatele je neplatný"
+}

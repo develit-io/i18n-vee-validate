@@ -1,0 +1,6 @@
+{
+    "name_required": "Name is required",
+    "invalid_email": "Email is invalid",
+    "admin_email_invalid": "Admin email is invalid",
+    "user_email_invalid": "User email is invalid"
+}
