@@ -20,7 +20,7 @@ export const useValidationStore = defineStore('useValidationStore', () => {
         otherwise: () =>
           yup.string().email(String($t('user_email_invalid'))), 
       }),
-    userType: yup.string().required(),
+    userType: yup.string().required(String($t('name_required'))),
   })
 
   const { values, errors, handleSubmit } = useForm({
