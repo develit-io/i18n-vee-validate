@@ -4,6 +4,7 @@ const {values, errors, handleSubmit} = useBBStore()
 
 <template>
     <div>
-        {{values}}
+       BB Form
+       <InputVee name="fromBankAccount"></InputVee>
     </div>
 </template>

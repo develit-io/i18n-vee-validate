@@ -22,6 +22,7 @@
       <br>
       <br>
     </form>
+    <FormBB></FormBB>
     </center>
   </div>
 </template>

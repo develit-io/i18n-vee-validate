@@ -3,8 +3,6 @@ import * as yup from 'yup'
 export const useBBStore = defineStore('useBBStore', () => {
   const { $t } = useI18n()
 
-
-
   const validationSchema = yup.object({
     swap: yup.object().shape({
       swapFrom: yup.object().shape({
