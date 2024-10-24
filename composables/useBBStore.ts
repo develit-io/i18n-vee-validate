@@ -13,14 +13,14 @@ export const useBBStore = defineStore('useBBStore', () => {
       }).test({
         name: 'verified-used',
         test: () => {
-          if (true)
+          if (false)
             return true
         },
         message: String($t('components.swapForm.verifiedAccountRequired')),
       }).test({
         name: 'personal-limit',
         test: val => {
-          if (true)
+          if (false)
             return true
         },
         message: String($t('components.swapForm.exceedsPersonalLimit')),
