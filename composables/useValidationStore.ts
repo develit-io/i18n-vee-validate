@@ -1,5 +1,4 @@
 import * as yup from 'yup'
-import { defineStore } from 'pinia'
 
 export const useValidationStore = defineStore('useValidationStore', () => {
   const { $t } = useI18n()

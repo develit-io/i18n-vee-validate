@@ -10,7 +10,7 @@
       <br>
       <div>
         <label for="email">Email:</label>
-        <InputVee id="email" :name="'email'"  />
+        <InputVee id="email" :name="'fromType'"  />
       </div>
       <br>
       <br>
@@ -23,6 +23,7 @@
       <br>
     </form>
     </center>
+    <Form></Form>
   </div>
 </template>
 <script lang="ts" setup>
