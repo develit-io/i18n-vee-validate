@@ -23,7 +23,6 @@
       <br>
     </form>
     </center>
-    <Form></Form>
   </div>
 </template>
 <script lang="ts" setup>
